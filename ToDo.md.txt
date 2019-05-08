@@ -1,0 +1,3 @@
+-Excepciónes ( entrada de mas caracteres)
+- Guardar y abrir archivos
+- Colorear
