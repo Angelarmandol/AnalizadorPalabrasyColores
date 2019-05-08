@@ -22,3 +22,10 @@ G:\MiniCompilador\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.pdb
 C:\Users\ANGEL\Documents\GitHub\AnalizadorPalabrasyColores\Visual Studio Project\MiniCompilador\MiniCompilador\bin\Debug\MiniCompilador.exe.config
 C:\Users\ANGEL\Documents\GitHub\AnalizadorPalabrasyColores\Visual Studio Project\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.exe
 C:\Users\ANGEL\Documents\GitHub\AnalizadorPalabrasyColores\Visual Studio Project\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.pdb
+C:\Users\ANGEL\Documents\GitHub\AnalizadorPalabrasyColores\Visual Studio Project\MiniCompilador\MiniCompilador\bin\Debug\MiniCompilador.exe
+C:\Users\ANGEL\Documents\GitHub\AnalizadorPalabrasyColores\Visual Studio Project\MiniCompilador\MiniCompilador\bin\Debug\MiniCompilador.pdb
+C:\Users\ANGEL\Documents\GitHub\AnalizadorPalabrasyColores\Visual Studio Project\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.csprojResolveAssemblyReference.cache
+C:\Users\ANGEL\Documents\GitHub\AnalizadorPalabrasyColores\Visual Studio Project\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.Form1.resources
+C:\Users\ANGEL\Documents\GitHub\AnalizadorPalabrasyColores\Visual Studio Project\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.Help1.resources
+C:\Users\ANGEL\Documents\GitHub\AnalizadorPalabrasyColores\Visual Studio Project\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.Properties.Resources.resources
+C:\Users\ANGEL\Documents\GitHub\AnalizadorPalabrasyColores\Visual Studio Project\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.csproj.GenerateResource.Cache
