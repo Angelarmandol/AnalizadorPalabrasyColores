@@ -54,8 +54,12 @@ namespace MiniCompilador
 
         private void compileToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            EraseConsole();
+            WritteOnConsole("\r\n");
             Console.WriteLine("Se enviara a: "+TBCode.Text);
-          WritteOnConsole("Compiled with: "+compiler.sanitize(TBCode.Text)+" errors");
+            WritteOnConsole("Compiled with: "+compiler.sanitize(TBCode.Text)+ " errors \r\n");
+            WritteOnConsole(compiler.getErrorCompilatorText()+ "\r\n");
+           
         }
 
         public void TBCode_TextChanged(object sender, EventArgs e)
@@ -79,7 +83,42 @@ namespace MiniCompilador
 
         private void WritteOnConsole(string text)
         {
-            richTextBox1.Text = text;
+            richTextBox1.Text = (richTextBox1.Text)+text;
+        }
+        private void EraseConsole()
+        {
+            richTextBox1.Text = null;
+        }
+
+
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        
+        public void genericMessageBox(string message, string title, MessageBoxButtons buttons, MessageBoxIcon icon)
+        {
+            MessageBox.Show(message, title, buttons, icon, MessageBoxDefaultButton.Button1);
+        }
+
+        private void runToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            ///////////////// change to CompilerClass
+            string text = TBCode.Text;
+            text += text.Replace("\r\n", "");
+            Console.WriteLine("-**-**-*-"+text);
+
+            if (text.Equals(""))
+            {
+                genericMessageBox("El texto esta vacio", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                Console.WriteLine("Hay texto en la caja");
+                
+            }
         }
     }
 

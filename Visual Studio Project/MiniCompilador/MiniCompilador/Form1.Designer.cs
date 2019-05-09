@@ -41,9 +41,9 @@
             this.TBCode = new System.Windows.Forms.TextBox();
             this.Tabs = new System.Windows.Forms.TabControl();
             this.TABDebug = new System.Windows.Forms.TabPage();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.TABConsole = new System.Windows.Forms.TabPage();
             this.button1 = new System.Windows.Forms.Button();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.menuStrip1.SuspendLayout();
             this.Tabs.SuspendLayout();
             this.TABDebug.SuspendLayout();
@@ -116,8 +116,9 @@
             // runToolStripMenuItem
             // 
             this.runToolStripMenuItem.Name = "runToolStripMenuItem";
-            this.runToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
+            this.runToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.runToolStripMenuItem.Text = "Run";
+            this.runToolStripMenuItem.Click += new System.EventHandler(this.runToolStripMenuItem_Click);
             // 
             // helpToolStripMenuItem
             // 
@@ -143,7 +144,7 @@
             this.Tabs.Location = new System.Drawing.Point(0, 295);
             this.Tabs.Name = "Tabs";
             this.Tabs.SelectedIndex = 0;
-            this.Tabs.Size = new System.Drawing.Size(306, 90);
+            this.Tabs.Size = new System.Drawing.Size(306, 172);
             this.Tabs.TabIndex = 2;
             this.Tabs.Tag = "";
             // 
@@ -153,11 +154,21 @@
             this.TABDebug.Location = new System.Drawing.Point(4, 22);
             this.TABDebug.Name = "TABDebug";
             this.TABDebug.Padding = new System.Windows.Forms.Padding(3);
-            this.TABDebug.Size = new System.Drawing.Size(298, 64);
+            this.TABDebug.Size = new System.Drawing.Size(298, 146);
             this.TABDebug.TabIndex = 0;
             this.TABDebug.Text = "Debug";
             this.TABDebug.UseVisualStyleBackColor = true;
             this.TABDebug.Click += new System.EventHandler(this.TABDebug_Click);
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox1.Location = new System.Drawing.Point(3, 3);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(292, 140);
+            this.richTextBox1.TabIndex = 0;
+            this.richTextBox1.Text = "";
+            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // TABConsole
             // 
@@ -181,19 +192,11 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Location = new System.Drawing.Point(3, 6);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(287, 50);
-            this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = "";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(306, 385);
+            this.ClientSize = new System.Drawing.Size(306, 466);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.Tabs);
             this.Controls.Add(this.TBCode);
