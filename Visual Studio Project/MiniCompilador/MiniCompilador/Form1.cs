@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.IO;
 namespace MiniCompilador
 {
 
@@ -19,6 +19,8 @@ namespace MiniCompilador
             InitializeComponent();
         }
         CompilerClass compiler = new CompilerClass();
+
+        ///////////////////////////////////////////MENU NEVO////////////////////////////////////////////////////////
         private void newToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (TBCode.Text == "")
@@ -34,7 +36,7 @@ namespace MiniCompilador
                 }else{
                     if (result == DialogResult.Yes)
                     {
-                        // Do nothing  
+                        guardararchivo(TBCode.Text);
                     }
                 }
             }
@@ -54,8 +56,10 @@ namespace MiniCompilador
 
         private void compileToolStripMenuItem_Click(object sender, EventArgs e)
         {
+
             EraseConsole();
             WritteOnConsole("\r\n");
+
             Console.WriteLine("Se enviara a: "+TBCode.Text);
             WritteOnConsole("Compiled with: "+compiler.sanitize(TBCode.Text)+ " errors \r\n");
             WritteOnConsole(compiler.getErrorCompilatorText()+ "\r\n");
@@ -120,11 +124,85 @@ namespace MiniCompilador
                 
             }
         }
+
+
+
+        ///////////////////////////////////////////MENU GUARDAR////////////////////////////////////////////////////////
+        private void saveToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            guardararchivo(TBCode.Text);
+        }
+
+        ///////////////////////////////////////////MENU OPEN////////////////////////////////////////////////////////
+        private void openToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog choofdlog = new OpenFileDialog();
+            choofdlog.Filter = "All Files (*.xkz)|*.xkz";
+            choofdlog.FilterIndex = 1;
+            choofdlog.Multiselect = false;
+
+            if (choofdlog.ShowDialog() == DialogResult.OK)
+            {
+                string sFileName = choofdlog.FileName;
+                TBCode.Text = File.ReadAllText(sFileName);
+                //string[] arrAllFiles = choofdlog.FileNames; //used when Multiselect = true           
+            }
+         
     }
 
-   
+    private void guardararchivo(string texto)
+    {
+            SaveFileDialog saveFileDialog1 = new SaveFileDialog();
+    saveFileDialog1.Filter = "All Files (*.xkz)|*.xkz";
+            saveFileDialog1.Title = "Guarda tu Codigo";
+            saveFileDialog1.ShowDialog();
+
+            if (saveFileDialog1.FileName != "")
+            {
+                StreamWriter escrito = File.AppendText(saveFileDialog1.FileName);
+    escrito.Write(texto.ToString());
+                escrito.Flush();
+                escrito.Close();
+            }
+        }
+
+
+
+    private string quitarEspacios(string texto)
+    {
+        string textoSinEspacios = texto.Replace(" ", "").Replace("\r\n", "").Replace("\n", "").Replace("\r", "");
+        return textoSinEspacios;
+    }
+
+    private void splitSentencias(string texto)
+    {
+        string[] separators = { ";", "%" };
+        string[] sentencias = texto.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+    }
+
+    private bool validarSentencias(string[] sentencias)
+    {
+        bool compila = false;
+        // Regex rx = new Regex;
+        string inicio = @"\A([iI][nN][iI][cC][iI][oO])\Z";
+        string fin = @"\A([fF][iI][nN])\Z";
+        string mensage = @"\A([fF][iI][nN])\Z";
+        string contador = @"\A([fF][iI][nN])\Z";
+
+        foreach (var sentencia in sentencias)
+        {
+            //if (rx.Matches(sentencia, inicio))
+            {
+
+            }
+        }
+
+        return compila;
+    }
+
 }
 
+}
 
 
 
