@@ -19,13 +19,35 @@ G:\MiniCompilador\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.csproj.
 G:\MiniCompilador\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.csproj.CoreCompileInputs.cache
 G:\MiniCompilador\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.exe
 G:\MiniCompilador\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.pdb
-C:\Users\ANGEL\Documents\GitHub\AnalizadorPalabrasyColores\Visual Studio Project\MiniCompilador\MiniCompilador\bin\Debug\MiniCompilador.exe.config
-C:\Users\ANGEL\Documents\GitHub\AnalizadorPalabrasyColores\Visual Studio Project\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.exe
-C:\Users\ANGEL\Documents\GitHub\AnalizadorPalabrasyColores\Visual Studio Project\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.pdb
-C:\Users\ANGEL\Documents\GitHub\AnalizadorPalabrasyColores\Visual Studio Project\MiniCompilador\MiniCompilador\bin\Debug\MiniCompilador.exe
-C:\Users\ANGEL\Documents\GitHub\AnalizadorPalabrasyColores\Visual Studio Project\MiniCompilador\MiniCompilador\bin\Debug\MiniCompilador.pdb
-C:\Users\ANGEL\Documents\GitHub\AnalizadorPalabrasyColores\Visual Studio Project\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.csprojResolveAssemblyReference.cache
-C:\Users\ANGEL\Documents\GitHub\AnalizadorPalabrasyColores\Visual Studio Project\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.Form1.resources
-C:\Users\ANGEL\Documents\GitHub\AnalizadorPalabrasyColores\Visual Studio Project\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.Help1.resources
-C:\Users\ANGEL\Documents\GitHub\AnalizadorPalabrasyColores\Visual Studio Project\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.Properties.Resources.resources
-C:\Users\ANGEL\Documents\GitHub\AnalizadorPalabrasyColores\Visual Studio Project\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.csproj.GenerateResource.Cache
+C:\Users\Sneiden\Downloads\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.csprojAssemblyReference.cache
+C:\Users\Sneiden\Downloads\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.Form1.resources
+C:\Users\Sneiden\Downloads\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.Help1.resources
+C:\Users\Sneiden\Downloads\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.Properties.Resources.resources
+C:\Users\Sneiden\Downloads\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.csproj.GenerateResource.cache
+C:\Users\Sneiden\Downloads\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.csproj.CoreCompileInputs.cache
+C:\Users\Sneiden\Downloads\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.exe
+C:\Users\Sneiden\Downloads\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.pdb
+C:\Users\Sneiden\Downloads\MiniCompilador\MiniCompilador\bin\Debug\MiniCompilador.exe.config
+C:\Users\Sneiden\Downloads\MiniCompilador\MiniCompilador\bin\Debug\MiniCompilador.exe
+C:\Users\Sneiden\Downloads\MiniCompilador\MiniCompilador\bin\Debug\MiniCompilador.pdb
+C:\Users\Sneiden\Downloads\MiniCompilador3\MiniCompilador\MiniCompilador\bin\Debug\MiniCompilador.exe.config
+C:\Users\Sneiden\Downloads\MiniCompilador3\MiniCompilador\MiniCompilador\bin\Debug\MiniCompilador.exe
+C:\Users\Sneiden\Downloads\MiniCompilador3\MiniCompilador\MiniCompilador\bin\Debug\MiniCompilador.pdb
+C:\Users\Sneiden\Downloads\MiniCompilador3\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.csprojAssemblyReference.cache
+C:\Users\Sneiden\Downloads\MiniCompilador3\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.Form1.resources
+C:\Users\Sneiden\Downloads\MiniCompilador3\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.Help1.resources
+C:\Users\Sneiden\Downloads\MiniCompilador3\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.Properties.Resources.resources
+C:\Users\Sneiden\Downloads\MiniCompilador3\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.csproj.GenerateResource.cache
+C:\Users\Sneiden\Downloads\MiniCompilador3\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.csproj.CoreCompileInputs.cache
+C:\Users\Sneiden\Downloads\MiniCompilador3\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.exe
+C:\Users\Sneiden\Downloads\MiniCompilador3\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.pdb
+C:\Users\ANGEL\Desktop\MiniCompilador\MiniCompilador\bin\Debug\MiniCompilador.exe.config
+C:\Users\ANGEL\Desktop\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.exe
+C:\Users\ANGEL\Desktop\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.pdb
+C:\Users\ANGEL\Desktop\MiniCompilador\MiniCompilador\bin\Debug\MiniCompilador.exe
+C:\Users\ANGEL\Desktop\MiniCompilador\MiniCompilador\bin\Debug\MiniCompilador.pdb
+C:\Users\ANGEL\Desktop\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.csprojResolveAssemblyReference.cache
+C:\Users\ANGEL\Desktop\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.Form1.resources
+C:\Users\ANGEL\Desktop\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.Help1.resources
+C:\Users\ANGEL\Desktop\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.Properties.Resources.resources
+C:\Users\ANGEL\Desktop\MiniCompilador\MiniCompilador\obj\Debug\MiniCompilador.csproj.GenerateResource.Cache
