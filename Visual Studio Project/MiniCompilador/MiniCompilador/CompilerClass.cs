@@ -10,11 +10,21 @@ namespace MiniCompilador
         bool inicio, mensaje, contador, fin; //flags
         int cnt; //counter
         int errors=4; // 
+        String errorCompilatorText;
         public int sanitize(string text) // this method search and verifica el lexico
         {
-            errors = 4;
 
-            if (text.Contains("inicio;") || text.Contains("Inicio"))
+            ///////////////////////////////////////////////////////Restar values
+            Console.WriteLine("texto a tratar: "+text);
+            errorCompilatorText = null;
+            errors = 4;
+            inicio = false;
+            mensaje = false;
+            contador = false;
+            fin =false;
+            /////////////////////////////////////////////////////////
+
+            if (text.Contains("inicio;") || text.Contains("Inicio;"))
             { // call to token ?
                 Console.WriteLine("Contains inicio");
                 inicio = true;
@@ -34,28 +44,74 @@ namespace MiniCompilador
                 contador = true;
                 string counterSubString = text.Substring(34);
                 string[] words2 = counterSubString.Split(']');
-                cnt = Convert.ToInt32(words2[0]);
+
+                try
+                {
+                    cnt = Convert.ToInt32(words2[0]);
+                }
+                catch
+                {
+                    setErrorCompilatorText("Word position exception  \r\n");
+                }
+
+
             }
             if (text.Contains("fin;") || text.Contains("Fin;")) // call to token ?
             {
                 Console.WriteLine("Contains Fin");
                 fin = true;
             }
-            if (inicio)
+
+
+            if (inicio) {
                 errors--;
+            }
+            else
+            {
+                setErrorCompilatorText("No se encuenta inicio \r\n");
+            }
             if (mensaje)
+            {
                 errors--;
-            if (contador)
-                errors--;
+            }
+            else
+            {
+                setErrorCompilatorText("No se encuenta Mensaje[] \r\n");
+            }
+            if (contador) { 
+            errors--;
+            }
+            else
+            {
+                setErrorCompilatorText("No se encuenta contador[] \r\n");            }
             if (fin)
+            {
                 errors--;
+            }
+            else
+            {
+                setErrorCompilatorText("No se encuenta fin; \r\n");
+            }
 
 
+            Console.WriteLine("errores: "+errors);
             return errors;
-           
-
+            
         }
 
      
-    }
+        public string getErrorCompilatorText()
+        {
+            return errorCompilatorText;
+        }
+        
+        private void setErrorCompilatorText(string text)
+        {
+            errorCompilatorText += text; 
+           
+        }
+
+
+        
+    }// class end
 }
